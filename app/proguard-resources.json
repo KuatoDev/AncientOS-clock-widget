@@ -1,0 +1,21 @@
+/**
+ * @Based on https://github.com/shwenzhang/AndResGuard
+ * @time 2019/10/24 20:48
+
+ * Does @param keepRoot only confuse the resource name
+ * @param fixedResName The global resource name
+ * @param mappingFile mapping configuration file, the default is off, please delete $ to enable
+ * @param whiteList resource name white list 
+
+{
+  "keepRoot": false,
+  "fixedResName": "_",
+  "mappingFile": "$resource_mapping.txt",
+  "whiteList": [],
+  "compressFilePattern": [
+    "*.png",
+    "*.jpg",
+    "*.jpeg",
+    "*.gif"
+  ]
+}

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.kuato.ancientclock">
+
+    <!--MODIFY_APPWIDGET_BIND_PERMISSIONS-->
+    <uses-permission android:name="android.permission.MODIFY_APPWIDGET_BIND_PERMISSIONS"/>
+
+    <!--BIND_KEYGUARD_APPWIDGET-->
+    <uses-permission android:name="android.permission.BIND_KEYGUARD_APPWIDGET"/>
+
+    <!--BIND_APPWIDGET-->
+    <uses-permission android:name="android.permission.BIND_APPWIDGET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false">
+
+        <receiver
+            android:name=".Digital"
+            android:label="Digital Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/digital"/>
+        </receiver>
+        <receiver
+            android:name=".BaloCeban"
+            android:label="Vertical Digital Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/baloceban"/>
+        </receiver>
+        <receiver
+            android:name=".ChronoJunu"
+            android:label="ChronoJunu Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/chrono"/>
+        </receiver>
+        <receiver
+            android:name=".Analog"
+            android:label="Analog Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog"/>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/baloceban"
+	android:gravity="center"
+	android:padding="4dp">
+
+	<LinearLayout
+		android:layout_gravity="center"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/balocebanLinearLayout1">
+
+		<TextClock
+			android:textSize="64.0dip"
+			android:textStyle="bold"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:format12Hour="hh"
+			android:format24Hour="HH"
+			android:background="?android:colorAccent"
+			android:layout_weight="1.0"
+			android:gravity="bottom"
+			android:paddingHorizontal="12dp"/>
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="4dp"
+			android:layout_margin="2dp"
+			android:layout_weight="1.0"/>
+
+		<TextClock
+			android:textSize="64.0dip"
+			android:textStyle="bold"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:format12Hour="mm"
+			android:format24Hour="mm"
+			android:background="?android:colorAccent"
+			android:paddingHorizontal="12dp"
+			android:layout_weight="1.0"
+			android:gravity="top"/>
+
+	</LinearLayout>
+
+	<TextClock
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:format12Hour="a"
+		android:format24Hour=""
+		android:padding="4dp"/>
+
+</RelativeLayout>
+
