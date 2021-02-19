@@ -3,5 +3,5 @@
     android:minWidth="40dip"
     android:minHeight="40dip" 
     android:updatePeriodMillis="0" 
-    android:previewImage="@drawable/preview_analog"
+    android:previewImage="@drawable/analogruncingbg"
     android:initialLayout="@layout/analog"/>

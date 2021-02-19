@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
 	android:id="@+id/Widget"
-	android:gravity="center">
+	android:padding="48dp"
+	android:background="@drawable/widget_bg"
+	android:gravity="bottom">
 
-	<LinearLayout
-		android:layout_gravity="center"
-		android:orientation="horizontal"
+	<TextClock
+		android:textSize="48.0dip"
+		android:textStyle="bold"
+		android:textColor="?android:colorAccent"
 		android:layout_width="wrap_content"
-		android:layout_height="fill_parent">
+		android:layout_height="wrap_content"
+		android:format12Hour="hh"
+		android:format24Hour="HH"/>
 
-		<TextClock
-			android:textSize="72.0dip"
-			android:textStyle="bold"
-			android:textColor="?android:colorAccent"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:format12Hour="hh"
-			android:format24Hour="HH"/>
+	<TextClock
+		android:textSize="48.0dip"
+		android:textStyle="normal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="2.0dip"
+		android:layout_marginRight="2.0dip"
+		android:format12Hour=":"
+		android:format24Hour=":"/>
 
-		<TextClock
-			android:textSize="48.0dip"
-			android:textStyle="normal"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_marginLeft="2.0dip"
-			android:layout_marginRight="2.0dip"
-			android:format12Hour=":"
-			android:format24Hour=":"/>
+	<TextClock
+		android:textSize="48.0dip"
+		android:textStyle="normal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:format12Hour="mm a"
+		android:format24Hour="mm"/>
 
-		<TextClock
-			android:textSize="48.0dip"
-			android:textStyle="normal"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:format12Hour="mm a"
-			android:format24Hour="mm"/>
-
-	</LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>
 

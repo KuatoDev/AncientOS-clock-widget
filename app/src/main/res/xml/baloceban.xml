@@ -3,5 +3,5 @@
     android:minWidth="42dip"
     android:minHeight="42dip" 
     android:updatePeriodMillis="0" 
-    android:previewImage="@drawable/preview_digital"
+    android:previewImage="@drawable/baloceban_preview"
     android:initialLayout="@layout/baloceban"/>

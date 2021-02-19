@@ -1,6 +1,7 @@
+
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
     android:minWidth="42dip"
     android:minHeight="42dip" 
     android:updatePeriodMillis="0" 
-    android:previewImage="@drawable/ancientui_preview"
-    android:initialLayout="@layout/shigeowibowo"/>
+    android:previewImage="@drawable/digital_clock_preview"
+    android:initialLayout="@layout/ram_booster"/>

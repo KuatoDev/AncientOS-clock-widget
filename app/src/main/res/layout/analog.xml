@@ -4,13 +4,10 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:id="@+id/Analog"
+android:background="@drawable/widget_bg"
 	android:gravity="center">
 
-	<LinearLayout
-		android:gravity="center"
-		android:orientation="vertical"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent">
+	
 		
 		<AnalogClock
 			android:id="@+id/analogClock1"
@@ -21,7 +18,7 @@
 			android:dial="@drawable/analogruncingbg"
 			style="@style/AppTheme"/>
 
-	</LinearLayout>
+
 
 </RelativeLayout>
 
