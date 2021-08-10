@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:id="@+id/Analog"
-android:background="@drawable/widget_bg"
-	android:gravity="center">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/Analog"
+    android:background="@drawable/widget_bg"
+    android:gravity="center">
 
-	
-		
-		<AnalogClock
-			android:id="@+id/analogClock1"
-			android:layout_width="fill_parent"
-			android:layout_height="fill_parent"
-			android:hand_hour="@drawable/analog_jam"
-			android:hand_minute="@drawable/analog_menit"
-			android:dial="@drawable/analogruncingbg"
-			style="@style/AppTheme"/>
-
-
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hand_hour="@drawable/analog_jam"
+        android:hand_minute="@drawable/analog_menit"
+        android:dial="@drawable/analogruncingbg"
+        style="@style/AppTheme" />
 
 </RelativeLayout>
 

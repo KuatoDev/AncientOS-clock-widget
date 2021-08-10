@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:id="@+id/Chronojun"
-android:background="@drawable/widget_bg"
+    android:background="@drawable/widget_bg"
     android:gravity="center">
 
-    
-
-        <AnalogClock
-            android:id="@+id/analogClock1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:hand_hour="@drawable/chrono_jam"
-            android:hand_minute="@drawable/chrono_menit"
-            android:dial="@drawable/chrono_bg"
-            style="@style/AppTheme"/>
-
-   
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hand_hour="@drawable/chrono_jam"
+        android:hand_minute="@drawable/chrono_menit"
+        android:dial="@drawable/chrono_bg"
+        style="@style/AppTheme" />
 
 </RelativeLayout>
-

@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:id="@+id/Widget"
-	android:padding="48dp"
-	android:background="@drawable/widget_bg"
-	android:gravity="bottom">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/Widget"
+    android:padding="48dp"
+    android:background="@drawable/widget_bg"
+    android:gravity="bottom">
 
-	<TextClock
-		android:textSize="48.0dip"
-		android:textStyle="bold"
-		android:textColor="?android:colorAccent"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:format12Hour="hh"
-		android:format24Hour="HH"/>
+    <TextClock
+        android:textSize="48.0dip"
+        android:textStyle="bold"
+        android:textColor="?android:colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="hh"
+        android:format24Hour="HH" />
 
-	<TextClock
-		android:textSize="48.0dip"
-		android:textStyle="normal"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginLeft="2.0dip"
-		android:layout_marginRight="2.0dip"
-		android:format12Hour=":"
-		android:format24Hour=":"/>
+    <TextClock
+        android:textSize="48.0dip"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:format12Hour=":"
+        android:format24Hour=":" />
 
-	<TextClock
-		android:textSize="48.0dip"
-		android:textStyle="normal"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:format12Hour="mm a"
-		android:format24Hour="mm"/>
+    <TextClock
+        android:textSize="48.0dip"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="mm a"
+        android:format24Hour="mm" />
 
 </LinearLayout>
-

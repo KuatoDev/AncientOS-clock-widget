@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/a12analog"
+    android:gravity="center">
+	<FrameLayout
+		android:id="@+id/frame"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/a12_analog_bg" />
+		<AnalogClock
+			android:id="@+id/a12clock"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:hand_hour="@drawable/a12_hours"
+			android:hand_minute="@drawable/a12_minutes"
+			android:dial="@android:color/transparent" />
+		
+	</FrameLayout>
+	<TextClock
+		android:textStyle="bold"
+		android:gravity="center"
+		android:id="@+id/date"
+		android:layout_above="@id/frame"
+		android:layout_marginBottom="-32dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:format12Hour="EEE dd"
+		android:format24Hour="EEE dd" />
+</RelativeLayout>
+
