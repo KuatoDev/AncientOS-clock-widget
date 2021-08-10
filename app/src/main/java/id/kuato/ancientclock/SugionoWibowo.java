@@ -13,7 +13,7 @@ public class SugionoWibowo extends AppWidgetProvider
         String act=intent.getAction();
         if (AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(act))
         {
-            RemoteViews SugionoWibowoclock =new RemoteViews(context.getPackageName(), R.layout.shigeowibowo);
+            RemoteViews SugionoWibowoclock =new RemoteViews(context.getPackageName(), R.layout.big_clock);
             AppWidgetManager.getInstance(context).updateAppWidget(intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS), SugionoWibowoclock);
         }
     }

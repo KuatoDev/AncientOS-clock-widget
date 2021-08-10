@@ -13,7 +13,7 @@ public class ChronoJunu extends AppWidgetProvider{
         String act=intent.getAction();
         if(AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(act))
         {
-            RemoteViews analogclock =new RemoteViews(context.getPackageName(), R.layout.chronojun);
+            RemoteViews analogclock =new RemoteViews(context.getPackageName(), R.layout.chronograph_styled);
             AppWidgetManager.getInstance(context).updateAppWidget(intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS), analogclock);
         }
     }

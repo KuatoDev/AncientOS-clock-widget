@@ -13,7 +13,7 @@ public class NezaSange extends AppWidgetProvider{
         String act=intent.getAction();
         if(AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(act))
         {
-            RemoteViews NezaSangeclock =new RemoteViews(context.getPackageName(), R.layout.neza_sange);
+            RemoteViews NezaSangeclock =new RemoteViews(context.getPackageName(), R.layout.chronograph);
             AppWidgetManager.getInstance(context).updateAppWidget(intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS), NezaSangeclock);
         }
     }

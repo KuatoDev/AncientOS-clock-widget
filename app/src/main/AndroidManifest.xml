@@ -37,7 +37,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/android12" />
+                android:resource="@xml/android12_analog" />
         </receiver>
 
         <receiver
@@ -48,18 +48,18 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/baloceban" />
+                android:resource="@xml/android12_digital" />
         </receiver>
 
         <receiver
             android:name=".ChronoJunu"
-            android:label="Chrono Black Analog Clock">
+            android:label="Chronograph Styled">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/chrono" />
+                android:resource="@xml/chronograph_styled" />
         </receiver>
 
         <receiver
@@ -81,7 +81,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/neza_sange_sama_bidan" />
+                android:resource="@xml/chronograph" />
         </receiver>
 
         <receiver
@@ -92,7 +92,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/mank_bowo_kakek_legend" />
+                android:resource="@xml/big_digital_clock" />
         </receiver>
     </application>
 </manifest>

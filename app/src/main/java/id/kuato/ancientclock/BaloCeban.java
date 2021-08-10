@@ -14,7 +14,7 @@ public class BaloCeban extends AppWidgetProvider
         String act=intent.getAction();
         if (AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(act))
         {
-            RemoteViews digitalclock =new RemoteViews(context.getPackageName(), R.layout.baloceban);
+            RemoteViews digitalclock =new RemoteViews(context.getPackageName(), R.layout.a12_digital);
             AppWidgetManager.getInstance(context).updateAppWidget(intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS), digitalclock);
         }
     }

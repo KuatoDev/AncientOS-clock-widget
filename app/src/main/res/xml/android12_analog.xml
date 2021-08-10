@@ -4,4 +4,4 @@
     android:minHeight="48dip" 
     android:updatePeriodMillis="0" 
     android:previewImage="@drawable/a12preview"
-    android:initialLayout="@layout/a12layout"/>
+    android:initialLayout="@layout/a12_analog"/>

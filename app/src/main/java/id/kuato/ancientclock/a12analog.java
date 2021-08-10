@@ -13,7 +13,7 @@ public class a12analog extends AppWidgetProvider{
         String act=intent.getAction();
         if(AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(act))
         {
-            RemoteViews a12clock =new RemoteViews(context.getPackageName(), R.layout.a12layout);
+            RemoteViews a12clock =new RemoteViews(context.getPackageName(), R.layout.a12_analog);
             AppWidgetManager.getInstance(context).updateAppWidget(intent.getIntArrayExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS), a12clock);
         }
     }

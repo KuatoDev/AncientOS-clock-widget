@@ -1,6 +1,6 @@
 
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
-    android:minWidth="42dip"
+    android:minWidth="128dip"
     android:minHeight="42dip" 
     android:updatePeriodMillis="0" 
     android:previewImage="@drawable/digital_clock_preview"
