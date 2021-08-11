@@ -41,7 +41,7 @@
         </receiver>
 
         <receiver
-            android:name=".BaloCeban"
+            android:name=".a12digital"
             android:label="A12 Digital Clock">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -49,17 +49,6 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/android12_digital" />
-        </receiver>
-
-        <receiver
-            android:name=".ChronoJunu"
-            android:label="Chronograph Styled">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/chronograph_styled" />
         </receiver>
 
         <receiver
@@ -71,28 +60,6 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/analog" />
-        </receiver>
-
-        <receiver
-            android:name=".NezaSange"
-            android:label="Ancient Analog Clock">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/chronograph" />
-        </receiver>
-
-        <receiver
-            android:name=".SugionoWibowo"
-            android:label="Ancient Digital Clock">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/big_digital_clock" />
         </receiver>
     </application>
 </manifest>

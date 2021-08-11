@@ -1,6 +1,0 @@
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
-    android:minWidth="480dip"
-    android:minHeight="320dip" 
-    android:updatePeriodMillis="0" 
-    android:previewImage="@drawable/ancientui_preview"
-    android:initialLayout="@layout/big_clock"/>

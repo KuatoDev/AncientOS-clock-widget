@@ -8,14 +8,15 @@
     android:padding="4dp">
 
     <LinearLayout
-        android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/parent">
 
         <TextClock
             android:textSize="52.0dip"
+            android:layout_marginBottom="-6dp"
             android:textStyle="bold"
             android:textColor="@color/textcolor"
             android:layout_width="match_parent"
@@ -26,11 +27,12 @@
             android:layout_weight="1.0"
             android:dial="@android:color/transparent"
             style="@style/AppTheme"
-            android:layout_gravity="bottom|center_horizontal" />
+            android:gravity="bottom|center_horizontal" />
 
         <TextClock
             android:textSize="52.0dip"
             android:textStyle="bold"
+            android:layout_marginTop="-6dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:format12Hour="mm"
@@ -40,19 +42,20 @@
             android:layout_weight="1.0"
             android:dial="@android:color/transparent"
             style="@style/AppTheme"
-            android:layout_gravity="top|center_horizontal" />
+            android:gravity="top|center_horizontal" />
 
     </LinearLayout>
     <TextClock
         android:textStyle="bold"
         android:layout_gravity="center"
         android:gravity="center"
+        android:layout_marginTop="-6dp"
         android:layout_below="@id/parent"
         android:id="@+id/date"
 		android:typeface="monospace"
         android:dial="@android:color/transparent"
         android:textColor="@color/textcolor"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:format12Hour="EEE dd"
         android:format24Hour="EEE dd" />

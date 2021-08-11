@@ -13,8 +13,9 @@
 		android:layout_height="wrap_content">
 
 		<TextClock
-			android:textSize="48.0dip"
+			android:textSize="42.0dip"
 			android:textStyle="bold"
+            
 			android:textColor="?android:colorAccent"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -22,18 +23,20 @@
 			android:format24Hour="HH" />
 
 		<TextClock
-			android:textSize="48.0dip"
-			android:textStyle="normal"
+			android:textSize="42.0dip"
+			android:textStyle="bold"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginLeft="2.0dip"
 			android:layout_marginRight="2.0dip"
 			android:format12Hour=":"
+            android:textColor="@color/textcolor"
 			android:format24Hour=":" />
 
 		<TextClock
-			android:textSize="48.0dip"
-			android:textStyle="normal"
+			android:textSize="42.0dip"
+			android:textStyle="bold"
+            android:textColor="@color/textcolor"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:format12Hour="mm a"
