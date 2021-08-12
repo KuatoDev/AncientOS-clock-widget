@@ -24,7 +24,6 @@
             android:format12Hour="EEE dd"
             android:format24Hour="EEE dd" />
 		<AnalogClock
-			android:id="@+id/a12clock"
 			android:layout_width="fill_parent"
             android:layout_weight="1.0"
             android:layout_marginTop="-12dp"

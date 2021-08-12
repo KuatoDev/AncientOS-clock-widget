@@ -19,6 +19,17 @@
         android:resizeableActivity="false">
 
         <receiver
+            android:name=".VernClock"
+            android:label="Vern Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vern_clock" />
+        </receiver>
+        
+        <receiver
             android:name=".Digital"
             android:label="Digital Clock">
             <intent-filter>

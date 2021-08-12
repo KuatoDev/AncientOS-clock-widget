@@ -1,0 +1,8 @@
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:minWidth="320dip"
+    android:minHeight="42dip" 
+    android:maxHeight="42dip"
+    android:updatePeriodMillis="0" 
+    android:previewImage="@drawable/vernclock_preview"
+    android:initialLayout="@layout/vern_clock"/>
