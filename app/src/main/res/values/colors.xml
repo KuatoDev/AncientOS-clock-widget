@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 	<color name="textcolor">#FFF4F4F4</color>
+<color name="a12_minutes_handler">#FF943300</color>
+<color name="a12_hours_handler">#FF3A1600</color>
 </resources>
