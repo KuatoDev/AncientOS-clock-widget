@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/a12analog"
-    android:gravity="center">
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/a12analog"
+	android:gravity="center">
 
-    <AnalogClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hand_hour="@drawable/a12_hours"
-        android:hand_minute="@drawable/a12_minutes"
-        android:dial="@+id/a12analogImageView1"
-        android:id="@+id/a12analogAnalogClock1"
-        android:layout_centerInParent="true"/>
+	<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
 
-    <TextClock
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/textcolor"
-        android:id="@+id/date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:format12Hour="EEE dd"
-        android:format24Hour="EEE dd"
-        android:layout_gravity="center_horizontal"
-        android:ellipsize="middle"
-        android:layout_alignStart="@id/a12analogAnalogClock1"
-        android:layout_alignEnd="@id/a12analogAnalogClock1"
-        android:typeface="normal"
-        android:layout_marginBottom="-12dp"/>
+		<AnalogClock
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hand_hour="@drawable/a12_hours"
+			android:hand_minute="@drawable/a12_minutes"
+			android:dial="@drawable/a12_analog_bg"
+			android:id="@+id/a12analogAnalogClock1"
+			android:layout_centerInParent="true"/>
+
+		<TextClock
+			android:textStyle="bold"
+			android:gravity="center"
+			android:textColor="@color/textcolor"
+			android:id="@+id/date"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:format12Hour="EEE dd"
+			android:format24Hour="EEE dd"
+			android:layout_gravity="center_horizontal"
+			android:ellipsize="middle"
+			android:layout_alignStart="@id/a12analogAnalogClock1"
+			android:layout_alignEnd="@id/a12analogAnalogClock1"
+			android:typeface="normal"
+			android:layout_marginTop="10dp"/>
+
+	</FrameLayout>
 
 </RelativeLayout>
 

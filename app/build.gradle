@@ -8,8 +8,8 @@ android {
         applicationId "id.kuato.ancientclock"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 2
-        versionName "2.1 Vernandi"
+        versionCode 3
+        versionName "v3.0 Vernandy Vermilion"
     }
     buildTypes {
         release {

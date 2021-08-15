@@ -4,14 +4,13 @@
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:id="@+id/baloceban"
-	android:gravity="center"
-	android:padding="8dp">
+	android:gravity="center">
 
 	<TextClock
 		android:textSize="52.0dip"
 		android:textStyle="bold"
 		android:textColor="@color/textcolor"
-		android:layout_width="match_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:format12Hour="hh"
 		android:format24Hour="HH"
@@ -27,7 +26,7 @@
 	<TextClock
 		android:textSize="52.0dip"
 		android:textStyle="bold"
-		android:layout_width="match_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:format12Hour="mm"
 		android:typeface="monospace"
