@@ -1,6 +1,6 @@
 /**
  * @基于 https://github.com/shwenzhang/AndResGuard
- * @Date 2019/10/24 20:48
+ * @time 2019/10/24 20:48
 
  * @param keepRoot 是否只混淆资源名称
  * @param fixedResName 全局的资源名称
